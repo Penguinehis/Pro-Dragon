@@ -7,6 +7,10 @@ Nescessario HTTPS, ou o modulo online não ira funcionar
 Nescessario Ioncube e PHP 7.4 na Hospedagem!
 
 Nescessario no VPS DragonCoreSSH 6.8 BETA ou Superior!
+Caso não contenha use o comando abaixo:
+```sh
+bash <(wget -qO- https://raw.githubusercontent.com/Penguinehis/DragonCoreSSH-Beta/main/install.sh)
+```
 
 Para instalar baixe o Pro-Dragon.zip
 
