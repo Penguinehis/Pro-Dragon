@@ -17,3 +17,12 @@ Descompacte o mesmo
 Crie um banco de dados
 
 Acesse o Dominio, e Preencha os dados como pedido 
+
+Caso na VPS de erro de login e senha use esse comando para corrigir as keys do SSHD:
+
+```sh
+sudo sed -i '/# HostKeyAlgorithms/ a\HostKeyAlgorithms +ssh-rsa' /etc/ssh/sshd_config
+sudo sed -i '/# PubkeyAcceptedKeyTypes/ a\PubkeyAcceptedKeyTypes +ssh-rsa' /etc/ssh/sshd_config
+```
+
+Grupo de suporte: https://t.me/dragoncoresshgp
